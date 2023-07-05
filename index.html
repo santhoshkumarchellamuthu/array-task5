@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>total no of odd no</title>
+</head>
+<body>
+    <script>
+        let array=[];
+        let odd=[];
+        let input=parseFloat(prompt("enter the n value"));
+        array.push(input);
+
+        for(i=0;i<=array[0];i++){
+            if (i%2 !==0){
+                console.log(i);
+                odd.push(i);
+            }
+        }
+        document.write("total number of odd = "+odd.length);
+    </script>
+</body>
+</html>
